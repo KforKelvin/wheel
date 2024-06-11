@@ -1,9 +1,5 @@
-import unittest
-from my_package.module1 import hello
+# tests/test_module1.py
+from my_package.module1 import func1
 
-class TestModule1(unittest.TestCase):
-    def test_hello(self):
-        self.assertEqual(hello(), "Hello, world!")
-
-if __name__ == '__main__':
-    unittest.main()
+def test_func1():
+    assert func1() == "Hello from module1!"
