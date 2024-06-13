@@ -1,1 +1,1 @@
-import my_package
+import hive
